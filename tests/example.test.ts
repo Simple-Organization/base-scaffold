@@ -3,7 +3,7 @@ import { expect, test } from '@playwright/test';
 //
 //
 
-describe('example', () => {
+test.describe('example', () => {
   test('example 1', () => {
     expect(1).toBe(1);
   });
