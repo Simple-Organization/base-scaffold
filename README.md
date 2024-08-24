@@ -3,6 +3,5 @@
 Usage
 
 ```shell
-git clone --depth 1 https://github.com/Simple-Organization/base-scaffold.git
+git clone --depth 1 https://github.com/Simple-Organization/base-scaffold.git new-project
 ```
-
