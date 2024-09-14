@@ -16,14 +16,14 @@
   "bugs": "https://github.com/Simple-Organization/base-scaffold/issues",
   "license": "MIT",
   "devDependencies": {
-    "@playwright/test": "^1.46.1",
-    "@types/node": "^22.5.2",
+    "@playwright/test": "^1.47.1",
+    "@types/node": "^22.5.4",
     "esbuild": "^0.23.1",
     "prettier": "^3.3.3",
-    "rollup": "^4.21.2",
+    "rollup": "^4.21.3",
     "rollup-plugin-dts": "^6.1.1",
-    "tsx": "^4.19.0",
-    "typescript": "^5.5.4"
+    "tsx": "^4.19.1",
+    "typescript": "^5.6.2"
   },
   "files": [
     "dist/index.d.ts",
