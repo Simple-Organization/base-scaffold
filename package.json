@@ -5,19 +5,13 @@
   "scripts": {
     "build": "tsc && rollup -c && tsx esbuild.ts",
     "format": "prettier --write \"src/**/*.ts\" \"tests/**/*.ts\"",
-    "test": "playwright test",
-    "prepack": "pnpm build"
+    "prepack": "pnpm build",
+    "test": "playwright test"
   },
   "main": "dist/index.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Simple-Organization/base-scaffold.git"
-  },
-  "bugs": "https://github.com/Simple-Organization/base-scaffold/issues",
-  "license": "MIT",
   "devDependencies": {
     "@playwright/test": "^1.47.1",
-    "@types/node": "^22.5.4",
+    "@types/node": "^22.5.5",
     "esbuild": "^0.23.1",
     "prettier": "^3.3.3",
     "rollup": "^4.21.3",
@@ -29,7 +23,13 @@
     "dist/index.d.ts",
     "dist/index.js"
   ],
-  "types": "dist/index.d.ts",
+  "bugs": "https://github.com/Simple-Organization/base-scaffold/issues",
+  "license": "MIT",
+  "packageManager": "pnpm@9.6.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Simple-Organization/base-scaffold.git"
+  },
   "type": "module",
-  "packageManager": "pnpm@9.6.0"
+  "types": "dist/index.d.ts"
 }
